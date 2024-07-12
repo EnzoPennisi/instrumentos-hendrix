@@ -1,0 +1,6 @@
+body {
+  font-family: system-ui, Roboto, sans-serif;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}

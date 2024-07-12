@@ -1,0 +1,14 @@
+.nav-link-login {
+  font-size: 1.3em; /* Hace el texto un poco más grande */
+}
+
+.nav-link-login:hover {
+  color: white; /* Cambia el color del texto al pasar el cursor sobre el enlace */
+}
+
+.usuario {
+  color: #52493a;
+  margin: auto;
+  margin-left: 50px;
+  font-weight: bold;
+}

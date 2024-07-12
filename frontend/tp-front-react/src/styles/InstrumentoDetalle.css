@@ -1,0 +1,86 @@
+.descripcion {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  padding-right: 15px;
+}
+
+.descripcion img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+
+.descripcion p {
+  font-weight: 500;
+}
+
+.detalle {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.cantidad-detalle {
+  color: gray;
+  font-size: 16px;
+}
+
+.titulo-detalle {
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.precio-detalle {
+  font-size: 90px;
+  margin: 10px 0px;
+  font-weight: 400;
+}
+
+.marca-detalle {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.modelo-detalle {
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.costo-detalle {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.texto-verde {
+  color: #79cd84;
+}
+
+.texto-naranja {
+  color: #ff9650;
+}
+
+.pdf-boton {
+  margin-top: 30px;
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: #56ad61;
+  color: #56ad61;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pdf-boton:hover {
+  background-color: #038514;
+  transition-duration: 0.4s;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}

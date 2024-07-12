@@ -1,0 +1,43 @@
+/* Estilos para el formulario de login */
+.login-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para los campos de texto y botón */
+.login-form .form-control,
+.login-form .btn {
+  min-height: 50px;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de ingresar */
+.login-form .btn {
+  background-color: #2e972e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s; /* Agrega transición para el efecto hover */
+}
+
+/* Agrega el efecto hover al botón */
+.login-form .btn:hover {
+  background-color: #267226; /* Color más oscuro para el hover */
+}
+
+/* Estilos para el mensaje de validación */
+.validation-text {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los labels en negrita */
+.login-form .form-label {
+  font-weight: bold; /* Hace el texto de los labels en negrita */
+}
